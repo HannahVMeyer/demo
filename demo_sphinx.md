@@ -14,7 +14,7 @@ mkdir -p ~/python_modules/demoSphinx/demoSphinx/io
 cd ~/python_modules/demoSphinx/demoSphinx/io
 wget https://www.ebi.ac.uk/~hannah/demoSphinx/demoSphinx/io/input_raw.py
 cd ../..
-1. __init__.py files
+1. `__init__.py` files
 
 ## Create a python environment to setup our package
 conda create -n demo python=2.7
