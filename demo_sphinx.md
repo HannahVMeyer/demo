@@ -23,7 +23,9 @@ conda create -n demo python=2.7
 conda install -n demo setuptools 
 
 #install these packages for uploading to repositories
+
 #conda install -n demo wheel twine
+
 #pip install twine
 
 ### activate the conda environment
@@ -38,7 +40,9 @@ conda install sphinx
 
 ### Run the quickstart
 mkdir -p ~/python_modules/demoSphinx/doc
+
 cd ~/python_modules/demoSphinx/doc
+
 sphinx-quickstart
 
 #if running on the cluster
